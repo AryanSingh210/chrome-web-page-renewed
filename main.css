@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./images/coder-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#profile img {
+    width: 14vw;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#profile h1 {
+    font-size: 3rem;
+    margin: 20px;
+    font-family: 'josefin sans', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-shadow: 3px 3px 10px rgb(0, 217, 255);
+    color: rgb(255, 255, 255);
+}
+
+#heading {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#heading p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4.8rem;
+    font-weight: 900;
+    text-shadow: 3px 3px 10px rgb(1, 255, 242);
+}
+
+#friends {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    width: auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(44, 43, 43);
+    padding: 10px;
+}
+
+.links img {
+    width: 2vw;
+    height: 4vh;
+    border-radius: 50%;
+}
+
+.links p {
+    font-family: 'josefin sans', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    padding: 0 20px;
+}
+
+#friends a {
+    text-decoration: none;
+}
+
+#skills-heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    text-shadow: 3px 3px 10px rgb(1, 255, 242);
+    margin-bottom: 40px;
+}
+
+#skills {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-skills img {
+    width: 10vw;
+    height: 13vh;
+}
